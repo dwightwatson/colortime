@@ -10,7 +10,7 @@ class ColorTimeTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->dateTimeMock = Mockery::mock(DateTime::class);
+        $this->dateTimeMock = Mockery::mock('DateTime');
 
         $this->colorTime = new ColorTime($this->dateTimeMock);
     }
@@ -40,7 +40,7 @@ class ColorTimeTest extends \PHPUnit_Framework_TestCase
     /** @test */
     public function it_sets_datetime_instance()
     {
-        $dateTime = Mockery::mock(DateTime::class);
+        $dateTime = Mockery::mock('DateTime');
 
         $this->colorTime->setDateTime($dateTime);
 
