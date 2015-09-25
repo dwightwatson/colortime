@@ -1,6 +1,13 @@
 ColorTime
 =========
 
+[![Build Status](https://travis-ci.org/dwightwatson/colortime.svg?branch=master)](https://travis-ci.org/dwightwatson/colortime)
+[![Dependency Status](https://www.versioneye.com/php/watson:colortime/1.0.0/badge.svg)](https://www.versioneye.com/php/watson:colortime/1.0.0)
+[![Total Downloads](https://poser.pugx.org/watson/colortime/downloads.svg)](https://packagist.org/packages/watson/colortime)
+[![Latest Stable Version](https://poser.pugx.org/watson/colortime/v/stable.svg)](https://packagist.org/packages/watson/colortime)
+[![Latest Unstable Version](https://poser.pugx.org/watson/colortime/v/unstable.svg)](https://packagist.org/packages/watson/colortime)
+[![License](https://poser.pugx.org/watson/colortime/license.svg)](https://packagist.org/packages/watson/colortime)
+
 Get time as a hexadecimal color, like [the color clock](http://www.jacopocolo.com/hexclock/).
 
 For example, 10:10:10 AM will have a hex value of #101010.
